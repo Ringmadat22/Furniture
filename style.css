@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    width: 100%;
+    padding-bottom: 90px;
+    background-color: rgb(44, 44, 40);
+    color: white;
+}
+
+.header .navbar .nav {
+    width: 33.33%;
+    float: left;
+    padding-top: 30px;
+
+}
+
+.header .navbar .nav ul li {
+    display: inline;
+    padding: 14px 16px;
+    margin-top: 20px;
+}
+
+.header .navbar .nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    margin-top: 40px;
+    color: white;
+    transition: all ease 800ms;
+    padding-bottom: 10px;
+}
+
+.header .navbar .nav ul li a:hover {
+    color: #ffb607;
+    border-bottom: 4px solid #ffb607;
+    transform: scale(1.8rem);
+}
+
+.header .navbar .nav .h1 {
+    font-weight: bolder;
+    padding-left: 230px;
+    font-size: 30px;
+    color: #ffb607;
+}
+
+.header .navbar .nav .header-btn {
+    width: 120px;
+    margin-top: 0px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: #ffb607;
+    margin-left: 240px;
+    cursor: pointer;
+    transition: all ease 700ms;
+}
+
+.header .navbar .nav .header-btn:hover {
+    font-size: 20px;
+    background-color: aliceblue;
+    color: #ffb607;
+    border: 3px solid #ffb607;
+}
+
+.main .home {
+    width: 50%;
+    float: left;
+    margin-top: 120px;
+
+}
+
+.main .main1 {
+    background-color: #ffb607;
+    padding-bottom: 800px;
+    margin-bottom: 40px;
+}
+
+.main .home img {
+    width: 800px;
+    height: 640px;
+}
+
+.main .home .h1 {
+    padding-left: 120px;
+    font-size: 60px;
+    margin-top:180px;
+    margin-bottom: 30px;
+}
+
+.main .home .p {
+    padding-left:120px ;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.main .home .home-btn {
+    width: 180px;
+    margin-top: 0px;
+    height: 45px;
+    color: #ffb607;
+    border: none;
+    background-color: aliceblue;
+    margin-left: 200px;
+    cursor: pointer;
+    transition: all ease 800ms;
+}
+
+.main .home .home-btn:hover {
+    font-size: 20px;
+    background-color: #000;
+    color: #ffb607;
+    border: 2px solid aliceblue;
+}
+
+.main .services {
+    margin-bottom: 600px;
+}
+.main .services .services-h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 120px;
+}
+
+.main .services .services-p {
+    color: #ffb607;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+
+.main .services .services1 .services1-1 {
+    width: 23%;
+    float: left;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-bottom: 8px solid #ffb607;
+}
+
+.main .services .services1 .services1-1 .h1 {
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.main .services .services1 .services1-1 .p {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.main .services .services1 .services1-1 img {
+    margin-left: 150px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.main .services .services1 .services1-1 .services-btn  {
+    width: 120px;
+    margin-top: 20px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: #ffb607;
+    margin-left: 120px;
+    cursor: pointer;
+    transition: all ease 700ms;
+    margin-bottom: 40px;
+}
+
+.main .services .services1 .services1-1 .services-btn:hover {
+    font-size: 20px;
+    background-color: aliceblue;
+    color: #ffb607;
+    border: 2px solid #ffb607;
+}
+
+.main .about {
+    background-color: #ffb607;
+    padding-bottom: 630px;
+}
+
+.main .about .about1 {
+    width: 50%;
+    float: left;
+    margin-top: 120px;
+}
+
+.main .about .about1 .h1 {
+    margin-left: 150px;
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    margin-top: 120px;
+}
+
+.main .about .about1 .p {
+    margin-left: 150px;
+    margin-right: 40px;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.main .about .about1 .about-btn {
+    width: 180px;
+    margin-top: 20px;
+    height: 45px;
+    color: #ffb607;
+    border: none;
+    background-color: aliceblue;
+    margin-left: 350px;
+    cursor: pointer;
+    transition: all ease 800ms;
+}
+
+.main .about .about1 .about-btn:hover {
+    font-size: 20px;
+    background-color: #000;
+    color: #ffb607;
+    border: 3px solid aliceblue;
+}
+
+.main .furniture .h1 {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.main .furniture {
+    padding-bottom: 700px;
+}
+
+.main .furniture .p {
+    text-align: center;
+    color: #ffb607;
+    margin-bottom: 100px;
+}
+
+.main .furniture .furniture1 {
+    width: 40%;
+    float: left;
+    margin-left: 120px;
+    border-bottom: 8px solid #ffb607;
+}
+
+.main .furniture .furniture1 img {
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.main .furniture .furniture1 .h2 {
+    color: #ffb607;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+
+.main .furniture .furniture1 .p1 {
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 48px;
+}
+
+.main .who-are-we {
+    background-color: #ffb607;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.main .who-are-we .h1 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.main .who-are-we .h2 {
+    margin-bottom: 40px;
+}
+
+.main .who-are-we .p {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+
+.main .who-are-we .btn {
+    width: 280px;
+    margin-top: 20px;
+    height: 45px;
+    color: #ffb607;
+    border: none;
+    background-color: aliceblue;
+    margin-left: 0px;
+    cursor: pointer;
+    transition: all ease 800ms;
+}
+
+.main .who-are-we .btn:hover {
+    color: #fff;
+    background-color: #000;
+    border: 3px solid aliceblue;
+}
+
+.main .projects .projects-h1{
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main .projects .p {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ffb607;
+}
+
+.main .projects{
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-bottom: 600px;
+    margin-bottom: 70px;
+}
+
+.main .projects .projects1 {
+    width: 30%;
+    float: left;
+    margin-left: 33px;
+    border-bottom: 8px solid #ffb607;
+}
+
+.main .projects .projects1 .h1 {
+   margin-top: 30px;
+   margin-bottom: 30px;
+    color: #000;
+}
+
+.main .testimonies {
+    background-color: antiquewhite;
+    padding-bottom: 300px;
+    margin-bottom: 200px;
+}
+
+.main .testimonies .h1-1 {
+    font-size: 60px;
+    color: #ffb607;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.main .testimonies .testimonies1 {
+    width: 50%;
+    float: left;
+    margin-top: 120px;
+    border-left: 8px solid #ffb607;
+    border-right: 8px solid #ffb607;
+}
+
+.testimonies .testimonies-1 {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.main .testimonies .testimonies1 .testimonies1-1 {
+    width: 50%;
+    float: left;
+}
+
+.main .testimonies .testimonies1 .testimonies1-1 .h1 {
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
+
+.main .testimonies .testimonies1 .testimonies1-1 img {
+    margin-left: 50px;
+}
+
+.main .testimonies .testimonies1 .testimonies1-2 {
+    width: 50%;
+    float: left;
+}
+
+.main .testimonies .testimonies1 .testimonies1-2 .h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+ }
+
+ .main .testimonies .testimonies1 .testimonies1-2 img {
+    margin-left: 50px;
+}
+
+.main .contact-us .h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: aliceblue;
+    padding-top: 40px;
+}
+
+.main .contact-us {
+   
+    padding-bottom: 100px;
+    background-color: #ffb607;
+}
+
+.main .contact-us .form input {
+    width: 390px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+}
+
+.main .contact-us .form{
+    margin-left: 250px;
+}
+.main .contact-us .form textarea {
+    margin-top: 20px;
+    width: 390px;
+    border: none;
+}
+
+.main .contact-us .form .contact-btn {
+    width: 390px;
+    margin-top: 20px;
+    height: 45px;
+    color: #ffb607;
+    border: none;
+    background-color: aliceblue;
+    margin-left: 0px;
+    cursor: pointer;
+    transition: all ease 800ms;
+}
+
+.main .contact-us .form .contact-btn:hover {
+    color: #fff;
+    background-color: #000;
+    border: 3px solid aliceblue;
+}
+
+.footer {
+    background-color: rgb(44, 44, 40);
+    color: #fff;
+    padding-bottom:10px;
+    
+}
+
+.footer .footer1 {
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-top: 120px;
+    background-color: inherit;
+    padding-bottom: 370px;
+    border-bottom: 2px solid #ffb607;
+}
+
+.footer .footer1 .footer1-1 {
+    width: 23%;
+    float: left;
+    background-color: inherit;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer .footer1 .footer1-1 .f-h2{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.footer .footer1 .footer1-1 .f-p{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.footer .footer1 .footer1-1 ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.footer .footer1 .footer1-1 ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    list-style-type: none;
+    padding-bottom: 10px;
+    transition: all ease 900ms;
+}
+
+.footer .footer1 .footer1-1 ul li a:hover {
+    color: #ffb607;
+}
+
+.footer .h4 {
+    margin-left: 260px;
+    padding-top: 10px;
+}
+
+.footer span {
+    color: #ffb607;
+    transition: all ease 700ms;
+    cursor: pointer;
+}
+
+.footer span:hover {
+    letter-spacing: 2px;
+}
